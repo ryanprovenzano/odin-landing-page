@@ -3,3 +3,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.hero, .footer, .header {
+  background-color: #1F2937;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+}
