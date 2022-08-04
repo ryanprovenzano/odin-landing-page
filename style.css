@@ -2,13 +2,42 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
 }
 
-.hero, .footer, .header {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+
+}
+
+.hero, .footer, header {
   background-color: #1F2937;
+}
+
+header h2 {
+  font-size: 24px;
+  color: #F9FAF8;
+  margin: 0;
 }
 
 h1 {
   font-size: 48px;
-  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
 }
