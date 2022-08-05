@@ -139,6 +139,7 @@ section .information {
   flex-direction: column;
   gap: 10px;
 }
+
 .card p {
   text-align: center;
   color: #65676B;
