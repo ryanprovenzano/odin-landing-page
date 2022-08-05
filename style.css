@@ -114,8 +114,21 @@ section.hero {
   color: #1F2937;
   padding: 0;
   margin: 35px 0;
+  text-align: center;
 }
 
 section .information {
   margin-bottom: 70px;
+}
+
+.information .container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card p {
+  max-width: 150px;
+  text-align: center;
+  color: #65676B;
 }
