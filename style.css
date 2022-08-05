@@ -215,3 +215,13 @@ section strong {
    margin: 0;
    padding: 0;
  }
+
+/******** Footer ********/
+
+footer {
+  background-color: #1F2937;
+  padding: 20px;
+  margin-top: auto;
+  color: #F9FAF8;
+  text-align: center;
+}
