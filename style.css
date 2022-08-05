@@ -124,11 +124,25 @@ section .information {
 .information .container {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 45px;
 }
 
-.card p {
+.card img{
+  border: 4px solid #1F2937;
   max-width: 150px;
+  border-radius: 18px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.card p {
   text-align: center;
   color: #65676B;
+  max-width: 150px;
+  margin: 0;
+  padding: 0;
 }
