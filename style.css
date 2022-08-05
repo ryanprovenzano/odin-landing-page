@@ -4,7 +4,6 @@ body {
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  overflow: hidden;
 }
 
 .above-the-fold {
@@ -146,4 +145,29 @@ section .information {
   max-width: 120px;
   margin: 0;
   padding: 0;
+}
+
+/******* Quote *******/
+
+section.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-style: italic;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+section p {
+  max-width: 590px;
+
+
+}
+
+section strong {
+  display: block;
+  font-style: normal;
+  color: #1F2937;
+  font-size: 20px;
+  text-align: right;
 }
