@@ -164,11 +164,8 @@ section.quote {
 
 section p {
   max-width: 590px;
-  padding-top: 70px;
   margin: 0;
-  padding-bottom: 46px;
-
-
+  padding: 70px 30px 46px 30px;
 }
 
 section strong {
