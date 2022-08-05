@@ -116,8 +116,10 @@ section.hero {
   text-align: center;
 }
 
-section .information {
+section.information {
   margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
 }
 
 .information .container {
@@ -156,10 +158,14 @@ section.quote {
   font-size: 26px;
   display: flex;
   justify-content: center;
+  padding-top:
 }
 
 section p {
   max-width: 590px;
+  padding-top: 70px;
+  margin: 0;
+  padding-bottom: 46px;
 
 
 }
